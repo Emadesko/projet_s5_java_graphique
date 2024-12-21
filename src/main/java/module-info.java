@@ -8,8 +8,8 @@ module com.emadesko {
     requires org.hibernate.orm.core;
     requires java.persistence;
 
-    opens com.emadesko to javafx.fxml;
+    opens com.emadesko.controllers to javafx.fxml;
     opens com.emadesko.entities to org.hibernate.orm.core;
-    
+
     exports com.emadesko;
 }
